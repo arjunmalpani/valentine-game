@@ -1,5 +1,5 @@
 const button = document.getElementById('floatingBtn');
-button.addEventListener('click', () => {
+button.addEventListener('mouseenter', () => {
     const buttonWidth = button.offsetWidth;
     const buttonHeight = button.offsetHeight;
 
